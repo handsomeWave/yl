@@ -1,0 +1,11 @@
+server:
+  port: 8013
+spring:
+  application:
+    name: yl-openFeign
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 139.224.202.194:8848
+        username: nacos
+        password: nacos

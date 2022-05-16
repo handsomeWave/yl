@@ -1,0 +1,3 @@
+com\yl\config\FeignConfig.class
+com\yl\demoFeign\FeignDemoFeignService.class
+com\yl\OpenFeignApplication.class

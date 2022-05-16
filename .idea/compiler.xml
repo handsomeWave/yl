@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yl-openFeign" />
+        <module name="yl-gateway" />
+        <module name="yl-common" />
+        <module name="yl-demo2" />
+        <module name="yl-demo1" />
+        <module name="yl-admin" />
+        <module name="stock" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stock" target="1.8" />
+      <module name="yl-gateway-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="stock" options="-parameters" />
+      <module name="yl-admin" options="-parameters" />
+      <module name="yl-common" options="-parameters" />
+      <module name="yl-demo1" options="-parameters" />
+      <module name="yl-demo2" options="-parameters" />
+      <module name="yl-gateway" options="-parameters" />
+      <module name="yl-gateway-demo" options="-parameters" />
+      <module name="yl-openFeign" options="-parameters" />
+    </option>
+  </component>
+</project>
